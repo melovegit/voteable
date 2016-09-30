@@ -23,12 +23,7 @@
               </button>
             <% end %>
 
-            <%= link_to dislike_movie_path(movie), class: "like", method: :put do %>
-              <button type="button" class="btn btn-info" aria-label="Left Align"> 
-                <span class="glyphicon glyphicon-thumbs-down glyphicon-align-center" aria-hidden="true"></span>
-                <span class="badge"><%= movie.get_downvotes.size %></span>
-              </button>  
-            <% end %>
+
             
             
       </div>
